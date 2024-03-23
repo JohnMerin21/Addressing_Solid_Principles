@@ -28,20 +28,7 @@ public int getArea() {
     }
 }
 
-class Square implements Shape {
-    protected int side;
-    public Square(int side) {
-        this.side = side;
-    }
-    public int getSide() {
-        this.side = side;
-    }
 
-    @Override
-    public int getArea() {
-        return side * side;
-    }
-}
 // I corrected the violation of the LSP by removing the inheritance relationship between 'Square'
 // & 'Rectangle'. Instead, both classes implemented the 'Shape' interface independently, and each class
 // provides its own implementation for calculating the area. This approach ensures that each class can be
