@@ -47,4 +47,4 @@ The project repository is organized as follows:
 Detailed documentation about the violations, solutions, and the reasoning behind them can be found within the code comments.
 
 ## Submission Information
-
+https://github.com/JohnMerin21/Addressing_Solid_Principles
